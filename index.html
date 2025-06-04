@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Bros</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="src/images/logo-chapeu-mario.png" alt="Logo do Super Mario Bros">
+        </div>
+        <nav>
+            <button>Home</button>
+            <button>Detalhes</button>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box">
+                <div class="content">
+                    <div class="title">
+                        <img src="src/images/titulo.png" alt="Título do Super Mario Bros">
+                    </div>
+                    <div class="text">
+                        <p>Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares</p>
+                    </div>
+                    <!--Estrutura do Modal-->
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <span id="closeTrailer" class="close-btn">&times;</span>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TnGl01FkMMo" title="Super Mario Bros Trailer" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!--Botão para abrir o Modal-->
+                    <button id="trailer">VEJA O TRAILER</button>
+
+                </div>
+            </div>
+            <div class="characters">
+                <img src="src/images/super-mario-chars.png" alt="Personagens do Super Mario Bros">
+            </div>
+        </div>
+        
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
